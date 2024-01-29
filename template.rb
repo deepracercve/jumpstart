@@ -46,6 +46,7 @@ unless rails_7_or_newer?
 end
 
 def add_gems
+  add_gem 'psych', '4.0.6'
   add_gem 'cssbundling-rails'
   add_gem 'devise', '~> 4.9'
   add_gem 'friendly_id', '~> 5.4'
